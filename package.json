@@ -1,0 +1,58 @@
+{
+  "name": "npmlint",
+  "version": "0.0.3",
+  "description": "WIP - Lint your npm package",
+  "license": "MIT",
+  "repository": "sindresorhus/npmlint",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "get-reporter.js",
+    "rules",
+    "reporters"
+  ],
+  "keywords": [
+    "npm",
+    "lint",
+    "linter",
+    "validate",
+    "report",
+    "check",
+    "package",
+    "json",
+    "module"
+  ],
+  "dependencies": {
+    "async": "^0.2.9",
+    "chalk": "^1.1.1",
+    "findup-sync": "^0.1.2",
+    "glob": "^3.2.7",
+    "meow": "^3.6.0",
+    "resolve": "^0.5.1",
+    "semver": "^5.1.0",
+    "sudo-block": "^1.2.0",
+    "update-notifier": "^0.5.0",
+    "yamlish": "0.0.7"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "prefer-reflect": 0
+    }
+  }
+}
