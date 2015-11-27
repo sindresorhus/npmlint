@@ -1,0 +1,51 @@
+{
+  "name": "test",
+  "version": "0.0.0-beta",
+  "keywords": [
+    "npm",
+    "lint",
+    "linter",
+    "validate",
+    "report",
+    "check",
+    "package",
+    "package.json",
+    "module"
+  ],
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (http://sindresorhus.com)",
+  "files": [
+    "npmlint",
+    "npmlint.js",
+    "cli.js"
+  ],
+  "main": "npmlint",
+  "bin": {
+    "npmlint": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sindresorhus/npmlint"
+  },
+  "scripts": {
+    "test": "node ../test.j"
+  },
+  "dependencies": {
+    "findup-sync": "~0.1.2",
+    "chalk": "~0.3.0",
+    "update-notifier": "~0.1.7",
+    "sudo-block": "~0.2.1",
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/sindresorhus/npmlint/issues"
+  },
+  "homepage": "https://github.com/sindresorhus/npmlint",
+  "license": "BSD-2-Clause"
+}
