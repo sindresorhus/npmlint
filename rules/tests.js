@@ -33,7 +33,7 @@ module.exports = function (data, cb) {
 				name: 'package-test-fail',
 				severity: 'error',
 				message: 'Tests are failing.'
-			})
+			});
 		});
 	}
 
