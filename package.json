@@ -1,6 +1,6 @@
 {
   "name": "npmlint",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "WIP - Lint your npm package",
   "license": "MIT",
   "repository": "sindresorhus/npmlint",
