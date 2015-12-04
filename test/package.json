@@ -34,7 +34,8 @@
     "chalk": "~0.3.0",
     "update-notifier": "~0.1.7",
     "sudo-block": "~0.2.1",
-    "coffee-script": "~1.6.3"
+    "coffee-script": "~1.6.3",
+    "typescript": "~1.9.0"
   },
   "devDependencies": {
     "tape": "~2.1.0"
