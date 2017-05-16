@@ -1,3 +1,10 @@
+# Deprecated
+
+This is a code dump of something I made a long time ago, but never had the time to finish. There are lots of things that could have been done better.
+
+---
+
+
 # npmlint [![Build Status](https://travis-ci.org/sindresorhus/npmlint.svg?branch=master)](https://travis-ci.org/sindresorhus/npmlint)
 
 > Lint your npm package
