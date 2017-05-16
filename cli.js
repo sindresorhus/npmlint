@@ -14,7 +14,6 @@ const cli = meow(`
 	  -r, --reporter  Custom reporter (json|tap|<node module>|<path>)
 	  -v, --verbose   Verbose output
 `, {
-	string: ['_'],
 	boolean: ['verbose'],
 	alias: {
 		v: '--verbose',

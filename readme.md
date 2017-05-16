@@ -4,8 +4,6 @@
 
 Makes sure your package is unicorn good.
 
-**WIP: This is a code dump of something I made 2 years ago, but never had the time to finish. There are lots of things that could have been done better, so I'd like to improve the core before beginning to accept rules. It's also incomplete and lots of bugs right now.**
-
 
 ## Install
 

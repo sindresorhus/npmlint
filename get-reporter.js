@@ -8,12 +8,12 @@ module.exports = (reporter, opts) => {
 		return require('./reporters/default');
 	}
 
-	// cwd file
+	// Cwd file
 	if (fs.existsSync(reporter)) {
 		return require(path.resolve(reporter));
 	}
 
-	// cwd node module
+	// Cwd node module
 	try {
 		return require(resolve.sync(reporter, {basedir: process.cwd()}));
 	} catch (err) {
@@ -22,7 +22,7 @@ module.exports = (reporter, opts) => {
 		}
 	}
 
-	// file
+	// File
 	try {
 		return require(`./reporters/${reporter}`);
 	} catch (err) {

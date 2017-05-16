@@ -1,7 +1,7 @@
 {
   "name": "npmlint",
   "version": "0.1.0",
-  "description": "WIP - Lint your npm package",
+  "description": "Lint your npm package",
   "license": "MIT",
   "repository": "sindresorhus/npmlint",
   "author": {
@@ -48,11 +48,5 @@
   "devDependencies": {
     "ava": "*",
     "xo": "*"
-  },
-  "xo": {
-    "esnext": true,
-    "rules": {
-      "prefer-reflect": 0
-    }
   }
 }
